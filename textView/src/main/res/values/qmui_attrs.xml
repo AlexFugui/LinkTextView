@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Tencent is pleased to support the open source community by making QMUI_Android available.
+
+ Copyright (C) 2017-2018 THL A29 Limited, a Tencent company. All rights reserved.
+
+ Licensed under the MIT License (the "License"); you may not use this file except in
+ compliance with the License. You may obtain a copy of the License at
+
+ http://opensource.org/licenses/MIT
+
+ Unless required by applicable law or agreed to in writing, software distributed under the License is
+ distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+ either express or implied. See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+
+    <attr name="qmui_backgroundColor" format="color" />
+    <attr name="qmui_borderColor" format="color" />
+    <attr name="qmui_borderWidth" format="dimension" />
+    <attr name="qmui_linkColor" format="color" />
+    <attr name="qmui_orientation" format="enum">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+
+    <declare-styleable name="QMUILayout">
+        <attr name="android:maxWidth" />
+        <attr name="android:maxHeight" />
+        <attr name="android:minWidth" />
+        <attr name="android:minHeight" />
+        <attr name="qmui_bottomDividerHeight" format="dimension" />
+        <attr name="qmui_bottomDividerColor" format="color|reference" />
+        <attr name="qmui_bottomDividerInsetLeft" format="dimension" />
+        <attr name="qmui_bottomDividerInsetRight" format="dimension" />
+        <attr name="qmui_topDividerHeight" format="dimension" />
+        <attr name="qmui_topDividerColor" format="color|reference" />
+        <attr name="qmui_topDividerInsetLeft" format="dimension" />
+        <attr name="qmui_topDividerInsetRight" format="dimension" />
+        <attr name="qmui_leftDividerWidth" format="dimension" />
+        <attr name="qmui_leftDividerColor" format="color|reference" />
+        <attr name="qmui_leftDividerInsetTop" format="dimension" />
+        <attr name="qmui_leftDividerInsetBottom" format="dimension" />
+        <attr name="qmui_rightDividerWidth" format="dimension" />
+        <attr name="qmui_rightDividerColor" format="color|reference" />
+        <attr name="qmui_rightDividerInsetTop" format="dimension" />
+        <attr name="qmui_rightDividerInsetBottom" format="dimension" />
+        <attr name="qmui_radius" />
+        <attr name="qmui_borderColor" />
+        <attr name="qmui_borderWidth" />
+        <attr name="qmui_outerNormalColor" format="color|reference" />
+        <attr name="qmui_hideRadiusSide" format="enum">
+            <enum name="none" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="left" value="4" />
+        </attr>
+        <attr name="qmui_showBorderOnlyBeforeL" format="boolean" />
+        <attr name="qmui_shadowElevation" format="dimension" />
+        <attr name="qmui_useThemeGeneralShadowElevation" format="boolean" />
+        <attr name="qmui_shadowAlpha" format="float" />
+        <attr name="qmui_outlineInsetTop" format="dimension" />
+        <attr name="qmui_outlineInsetLeft" format="dimension" />
+        <attr name="qmui_outlineInsetRight" format="dimension" />
+        <attr name="qmui_outlineInsetBottom" format="dimension" />
+        <attr name="qmui_outlineExcludePadding" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LinkTextView">
+        <attr name="qmui_linkBackgroundColor" format="color" />
+        <attr name="qmui_linkTextColor" format="color" />
+    </declare-styleable>
+
+    <!-- RoundWidget start -->
+
+    <!-- 圆角是否要自适应为 View 高度的一半 -->
+    <!-- 同时指定四个方向的圆角大小 -->
+    <attr name="qmui_radius" format="dimension" />
+
+    <!--    -->
+    <attr name="qmui_alpha_pressed" format="float" />
+    <!--    -->
+    <attr name="qmui_alpha_disabled" format="float" />
+
+    <!--    -->
+    <attr name="qmui_general_shadow_elevation" format="dimension" />
+    <!--    -->
+    <attr name="qmui_general_shadow_alpha" format="float" />
+
+</resources>

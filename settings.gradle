@@ -1,0 +1,3 @@
+include ':textView'
+include ':app'
+rootProject.name = "LinkTextView"
